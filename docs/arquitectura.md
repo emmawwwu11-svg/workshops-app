@@ -1,3 +1,6 @@
+# Arquitectura del Proyecto
+
+## Diagrama de arquitectura
 Usuario → CloudFront → S3 (Frontend)
 ↓
 API Gateway
@@ -10,7 +13,6 @@ Cognito → Autenticación
 EventBridge → Eventos
 SNS → Notificaciones
 
-text
 
 ## Decisiones técnicas
 
