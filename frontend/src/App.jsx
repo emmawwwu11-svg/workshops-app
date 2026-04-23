@@ -12,7 +12,7 @@ Amplify.configure({
   }
 });
 
-const API_URL = 'https://dck2bexy89.execute-api.us-east-1.amazonaws.com/dev';
+const API_URL = 'https://8ozozykocg.execute-api.us-east-1.amazonaws.com/dev';
 
 function WorkshopsList({ token, isAdmin }) {
   const [workshops, setWorkshops] = useState([]);
